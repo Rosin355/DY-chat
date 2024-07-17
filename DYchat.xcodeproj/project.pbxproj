@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4CA07D2C23449300A4A7F4 /* UpdatesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA07C2C23449300A4A7F4 /* UpdatesTabScreen.swift */; };
+		CD5B26C92C36F34A00B5F357 /* CommunityTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B26C82C36F34A00B5F357 /* CommunityTabScreen.swift */; };
+		CD5B26CC2C36FC0900B5F357 /* ChannelTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B26CB2C36FC0900B5F357 /* ChannelTabScreen.swift */; };
+		CD69378A2C2ED6C80064680C /* CallsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6937892C2ED6C80064680C /* CallsTabScreen.swift */; };
+		CD69378D2C2EF8300064680C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69378C2C2EF8300064680C /* CustomFont.swift */; };
+		CD9B96432C46E15100452F06 /* ChannelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B96422C46E15100452F06 /* ChannelItemView.swift */; };
 		CDA64F342C1DCE3B00E0524D /* DYchatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA64F332C1DCE3B00E0524D /* DYchatApp.swift */; };
-		CDA64F362C1DCE3B00E0524D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA64F352C1DCE3B00E0524D /* ContentView.swift */; };
 		CDA64F382C1DCE3C00E0524D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA64F372C1DCE3C00E0524D /* Assets.xcassets */; };
 		CDA64F3B2C1DCE3C00E0524D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA64F3A2C1DCE3C00E0524D /* Preview Assets.xcassets */; };
+		CDA64F422C1DCEC200E0524D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA64F412C1DCEC200E0524D /* MainTabView.swift */; };
+		CDAF01F12C2ED35E00DFC23C /* VT323-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDAF01F02C2ED35E00DFC23C /* VT323-Regular.ttf */; };
+		CDCFEFF12C482459003EC636 /* SettingsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFEFF02C482459003EC636 /* SettingsTabScreen.swift */; };
+		CDCFEFF32C4824ED003EC636 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFEFF22C4824ED003EC636 /* SettingsItemView.swift */; };
+		CDCFEFF62C482764003EC636 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFEFF52C482764003EC636 /* SettingsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD4CA07C2C23449300A4A7F4 /* UpdatesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTabScreen.swift; sourceTree = "<group>"; };
+		CD5B26C82C36F34A00B5F357 /* CommunityTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTabScreen.swift; sourceTree = "<group>"; };
+		CD5B26CB2C36FC0900B5F357 /* ChannelTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabScreen.swift; sourceTree = "<group>"; };
+		CD6937892C2ED6C80064680C /* CallsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTabScreen.swift; sourceTree = "<group>"; };
+		CD69378C2C2EF8300064680C /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		CD9B96422C46E15100452F06 /* ChannelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItemView.swift; sourceTree = "<group>"; };
 		CDA64F302C1DCE3B00E0524D /* DYchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA64F332C1DCE3B00E0524D /* DYchatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYchatApp.swift; sourceTree = "<group>"; };
-		CDA64F352C1DCE3B00E0524D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDA64F372C1DCE3C00E0524D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA64F3A2C1DCE3C00E0524D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA64F412C1DCEC200E0524D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CDAF01F02C2ED35E00DFC23C /* VT323-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VT323-Regular.ttf"; sourceTree = "<group>"; };
+		CDAF01F22C2ED5B400DFC23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CDCFEFF02C482459003EC636 /* SettingsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabScreen.swift; sourceTree = "<group>"; };
+		CDCFEFF22C4824ED003EC636 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		CDCFEFF52C482764003EC636 /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +53,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD5B26BD2C36F24A00B5F357 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26BF2C36F25E00B5F357 /* Updates */,
+				CD5B26C42C36F2BC00B5F357 /* Calls */,
+				CD5B26C12C36F27D00B5F357 /* Channel */,
+				CD5B26C02C36F26F00B5F357 /* Community */,
+				CD5B26C22C36F28600B5F357 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CD5B26BF2C36F25E00B5F357 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26C62C36F2F000B5F357 /* Views */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		CD5B26C02C36F26F00B5F357 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26C72C36F33900B5F357 /* Views */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		CD5B26C12C36F27D00B5F357 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26CA2C36FBF600B5F357 /* Views */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		CD5B26C22C36F28600B5F357 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFEFF42C482753003EC636 /* Models */,
+				CDCFEFEF2C482446003EC636 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CD5B26C42C36F2BC00B5F357 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26C52C36F2D300B5F357 /* Views */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		CD5B26C52C36F2D300B5F357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD6937892C2ED6C80064680C /* CallsTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD5B26C62C36F2F000B5F357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA07C2C23449300A4A7F4 /* UpdatesTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD5B26C72C36F33900B5F357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26C82C36F34A00B5F357 /* CommunityTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD5B26CA2C36FBF600B5F357 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B26CB2C36FC0900B5F357 /* ChannelTabScreen.swift */,
+				CD9B96422C46E15100452F06 /* ChannelItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD69378B2C2EF31C0064680C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF01EF2C2ED34900DFC23C /* Font */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CDA64F272C1DCE3B00E0524D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +166,11 @@
 		CDA64F322C1DCE3B00E0524D /* DYchat */ = {
 			isa = PBXGroup;
 			children = (
+				CD69378B2C2EF31C0064680C /* Utils */,
+				CD5B26BD2C36F24A00B5F357 /* Screens */,
+				CDAF01F22C2ED5B400DFC23C /* Info.plist */,
 				CDA64F332C1DCE3B00E0524D /* DYchatApp.swift */,
-				CDA64F352C1DCE3B00E0524D /* ContentView.swift */,
+				CDA64F412C1DCEC200E0524D /* MainTabView.swift */,
 				CDA64F372C1DCE3C00E0524D /* Assets.xcassets */,
 				CDA64F392C1DCE3C00E0524D /* Preview Content */,
 			);
@@ -65,6 +183,32 @@
 				CDA64F3A2C1DCE3C00E0524D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDAF01EF2C2ED34900DFC23C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CDAF01F02C2ED35E00DFC23C /* VT323-Regular.ttf */,
+				CD69378C2C2EF8300064680C /* CustomFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CDCFEFEF2C482446003EC636 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFEFF02C482459003EC636 /* SettingsTabScreen.swift */,
+				CDCFEFF22C4824ED003EC636 /* SettingsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDCFEFF42C482753003EC636 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFEFF52C482764003EC636 /* SettingsItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA64F3B2C1DCE3C00E0524D /* Preview Assets.xcassets in Resources */,
+				CDAF01F12C2ED35E00DFC23C /* VT323-Regular.ttf in Resources */,
 				CDA64F382C1DCE3C00E0524D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA64F362C1DCE3B00E0524D /* ContentView.swift in Sources */,
+				CD5B26CC2C36FC0900B5F357 /* ChannelTabScreen.swift in Sources */,
+				CD69378D2C2EF8300064680C /* CustomFont.swift in Sources */,
+				CD4CA07D2C23449300A4A7F4 /* UpdatesTabScreen.swift in Sources */,
+				CDCFEFF62C482764003EC636 /* SettingsItem.swift in Sources */,
+				CD9B96432C46E15100452F06 /* ChannelItemView.swift in Sources */,
+				CD69378A2C2ED6C80064680C /* CallsTabScreen.swift in Sources */,
+				CD5B26C92C36F34A00B5F357 /* CommunityTabScreen.swift in Sources */,
+				CDCFEFF32C4824ED003EC636 /* SettingsItemView.swift in Sources */,
 				CDA64F342C1DCE3B00E0524D /* DYchatApp.swift in Sources */,
+				CDA64F422C1DCEC200E0524D /* MainTabView.swift in Sources */,
+				CDCFEFF12C482459003EC636 /* SettingsTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +429,7 @@
 				DEVELOPMENT_TEAM = 72NYN8P4E4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DYchat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +459,7 @@
 				DEVELOPMENT_TEAM = 72NYN8P4E4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DYchat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

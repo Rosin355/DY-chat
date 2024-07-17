@@ -117,8 +117,8 @@ private struct StatusSection: View {
                 Text("Il mio stato")
                     .font(.custom(
                         VT323.regular.rawValue,
-                        size: Font.TextStyle.callout.size,
-                        relativeTo: .callout)
+                        size: Font.TextStyle.headline.size,
+                        relativeTo: .headline)
                     )
                     .bold()
                 Text("Aggiungi al mio stato")
@@ -172,8 +172,8 @@ private struct RecentUpdatesItemView: View {
                 Text("Romesh Singhabahu")
                     .font(.custom(
                         VT323.regular.rawValue,
-                        size: Font.TextStyle.callout.size,
-                        relativeTo: .callout)
+                        size: Font.TextStyle.headline.size,
+                        relativeTo: .headline)
                     )
                     .bold()
                 Text("1 ora fa")
@@ -203,7 +203,7 @@ private struct ChanneListView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(0..<5) { _ in
-                        ChannelItemView()
+                        SuggestedChannelItemView()
                     }
                 }
             }
@@ -223,7 +223,7 @@ private struct ChanneListView: View {
     }
 }
 
-private struct ChannelItemView: View {
+private struct SuggestedChannelItemView: View {
     var body: some View {
         VStack {
             Circle()
